@@ -9,6 +9,7 @@
     font-size: 20px;
     color: #111;
   }
+
   .container {
     padding: 150px 120px;
   }
@@ -45,14 +46,34 @@
     border-top-left-radius: 0;
   }
   .bg-2{
-    background:#ecd3c6;
-    color:#bdbdbd;
+    background:#e7cfdd;
+    color:#fff;
   }
 
   .bg-3{
-    background: #fff0f4;
+    background: #ffffff;
+    color:fff;
+  }
+.bg-4{
+    background: #e5b9da;
     color:000;
   }
+
+
+
+.box1{
+  background-color: #ffe1ec;
+  border:solid;
+  color: black;
+  padding:75px;
+}
+
+.box2{
+  background-color: #ffe1ec;
+  border:solid;
+  color:000;
+  padding:75px;
+}
 
   .list-group-item:last-child {
     border-bottom-right-radius: 0;
@@ -69,8 +90,6 @@
   }
   .btn {
     padding: 10px 20px;
-    background-color: #333;
-    color: #f1f1f1;
     border-radius: 0;
     transition: .2s;
   }
