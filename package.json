@@ -1,7 +1,7 @@
 {
-  "name": "my-personal-website",
+  "name": "my-personal-projects",
   "version": "1.0.0",
-  "description": "This will load my personal html site",
+  "description": "This will load my personal projects",
   "scripts": {
     "start": "harp server --port $PORT"
   },
