@@ -43,7 +43,7 @@ body{
     position: absolute;
     bottom: 10px;
     left: 10px;
-    color: #FFF;
+    color: #000;
     font-size: 25px;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -56,8 +56,8 @@ body{
     background-color: #FFF;
     overflow: auto;
 }
-.content::-webkit-scrollbar { 
-    display: none; 
+.content::-webkit-scrollbar {
+    display: none;
 }
 .content ul{
     padding:0;
@@ -155,31 +155,3 @@ body{
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
