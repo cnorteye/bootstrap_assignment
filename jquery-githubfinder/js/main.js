@@ -6,17 +6,17 @@ $(document).ready(function(){
     $.ajax({
         url:'https://api.github.com/users/'+username,
         data:{
-          client_id:'b9315bcd5a07fcd759d8',
-          client_secret:'a2b698bf7e7c02f898197cf136d1a41f704ca8e4'
+          client_id:'3e096f3f4d112bed39a7',
+          client_secret:'640d04fd41140df3685287674730442068f17179'
         }
     }).done(function(user){
       $.ajax({
         url:'https://api.github.com/users/'+username+'/repos',
         data:{
-          client_id:'b9315bcd5a07fcd759d8',
-          client_secret:'a2b698bf7e7c02f898197cf136d1a41f704ca8e4',
+          client_id:'3e096f3f4d112bed39a7',
+          client_secret:'640d04fd41140df3685287674730442068f17179',
           sort: 'created: asc',
-          per_page: 5
+          per_page: 3
         }
       }).done(function(repos){
         $.each(repos, function(index, repo){
